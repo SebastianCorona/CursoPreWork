@@ -27,9 +27,18 @@
         rm -rf #carpeta &nbsp Borra la capeta con archivos <br>
         ssh-keygen -t rsa -b 4096 -C [email] &nbsp Para obtener nuestra llave <br>
         eval "$(ssh-agent -s)" &nbsp para ver el agente <br>
-        ssh-copy-id [soyseco7@gmail.com] &nbsp Para ver donde esta<br>
+        ssh-copy-id [correo] &nbsp Para ver donde esta<br>
         ~/.ssh$ cat id_rsa.pub &nbsp Desde cat ahi es el comando,
-        lo anterior es la direc, aqui obtenemos la llave
+        lo anterior es la direc, aqui obtenemos la llave<br>
+        echo "# CursoPreWork" >> README.md &nbsp en tu carpeta pones esto y te genera el readme <br>
+        git init &nbsp Inicializa <br>
+        git add . &nbsp Agrega todos los archivos que esten en la carpeta<br>
+        git config --global user.email "correo"<br>
+        git config --global user.name #tunombre &nbsp Con eso lo empieas a configurar<br>
+        git config --edit --global &nbsp Para checar que lo metiste bien<br>
+        git commit -m "first commit" &nbsp Ultimo chequeo general<br>
+        git remote add origin https://github.com/SebastianCorona/CursoPreWork.git<br>
+        git push -u origin master
     </p>
 </body>
 </html>
