@@ -39,6 +39,52 @@
         git commit -m "first commit" &nbsp Ultimo chequeo general<br>
         git remote add origin https://github.com/SebastianCorona/CursoPreWork.git<br>
         git push -u origin master &nbsp Cada que hagamos cambios va las lineas de add, commit y push
+        ls -l<br>
+        ls -lH<br>
+        ls -lR<br>
+        tree<br>
+        tree -L 2<br>
+        mkdir CursoIntroTerm<br>
+        mkdir "Curso Introductorio Terminal"<br>
+        cp file1 file1_bk &nbsp Copia el primero y lo nombra como el segundo<br>
+        mv file1_bk .. &nbsp Lo mueve hacia atras<br>
+        mv file1_bk filecopy &nbsp Renombra el primero como el segundo<br>
+        rm -i  Miarchivo &nbsp Remueve con una confirmacion<br>
+        rm -ri dir1 &nbsp Borrar recursivo, va borrando desde adentro hasta afuera<br>
+        head index.html &nbsp 
+        head index.html -n 15 &nbsp
+        tail index.html &nbsp
+        tail index.html -n 20 &nbsp
+        less index.html &nbsp
+        explorer.exe &nbsp
+        nautilus
+        type &nbsp
+        alias l="ls -lh" &nbsp Crea alias pero solo de momento
+        help &nbsp
+        whatis &nbsp
+        man &nbsp
+        info &nbsp
+        #comando --help &nbsp Todos son comandos de ayuda
+        ls *.txt &nbsp Filtrado de busqueda
+        ls datos* &nbsp Filtrado de busqueda
+        ls datos? &nbsp Filtrado de busqueda
+        datos??? &nbsp Filtrado de busqueda
+        ls -d [[:lower:]]* &nbsp Filtrado de busqueda de files y documentos empezando minuscula
+        ls [[:upper:]]* &nbsp Filtrado de busqueda de archivos empezando mayus
+        ls -d [[:upper:]]* &nbsp Filtrado de archivos y carpetas mayus
+        ls [ad]* &nbsp Filtrado que empiezen con a o d
+        ls [ai]* &nbsp Filtrado que empiezen con a o i
+        ls Pictures/EMSE > misarchivos.txt &nbsp crea un .txt con los nombres que hay en esa carpeta
+        ls Pictures/harry >> misarchivos.txt &nbsp Anida a lo ya creado
+        ls lkjhg 2> error.txt &nbsp el 2 es porque quieres escribir lo que dice el error
+        ls Documents/ > output.txt 2>&1 &nbsp Por si no sabemos si sera error o algo bien
+        echo "Hola Platzi" &nbsp como el Printf
+        cat error.txt output.txt &nbsp Como el less pero concatenado
+        ls -lh | less &nbsp El simbolo de pipe operatior concatena instrucciones
+        ls -lh | tee uotput.txt | less
+        cowsay "Hola" &nbsp Saca una vaquita diciendo Hola
+        echo "Hola Platzi" | lolcat &nbsp Colorea en la terminal
+        cowsay "Hola amikos" | lolcat &nbsp Vaquita de colores
     </p>
 </body>
 </html>
