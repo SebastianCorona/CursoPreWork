@@ -51,40 +51,69 @@
         mv file1_bk filecopy &nbsp Renombra el primero como el segundo<br>
         rm -i  Miarchivo &nbsp Remueve con una confirmacion<br>
         rm -ri dir1 &nbsp Borrar recursivo, va borrando desde adentro hasta afuera<br>
-        head index.html &nbsp 
-        head index.html -n 15 &nbsp
-        tail index.html &nbsp
-        tail index.html -n 20 &nbsp
-        less index.html &nbsp
-        explorer.exe &nbsp
-        nautilus
-        type &nbsp
-        alias l="ls -lh" &nbsp Crea alias pero solo de momento
-        help &nbsp
-        whatis &nbsp
-        man &nbsp
-        info &nbsp
-        #comando --help &nbsp Todos son comandos de ayuda
-        ls *.txt &nbsp Filtrado de busqueda
-        ls datos* &nbsp Filtrado de busqueda
-        ls datos? &nbsp Filtrado de busqueda
-        datos??? &nbsp Filtrado de busqueda
-        ls -d [[:lower:]]* &nbsp Filtrado de busqueda de files y documentos empezando minuscula
-        ls [[:upper:]]* &nbsp Filtrado de busqueda de archivos empezando mayus
-        ls -d [[:upper:]]* &nbsp Filtrado de archivos y carpetas mayus
-        ls [ad]* &nbsp Filtrado que empiezen con a o d
-        ls [ai]* &nbsp Filtrado que empiezen con a o i
-        ls Pictures/EMSE > misarchivos.txt &nbsp crea un .txt con los nombres que hay en esa carpeta
-        ls Pictures/harry >> misarchivos.txt &nbsp Anida a lo ya creado
-        ls lkjhg 2> error.txt &nbsp el 2 es porque quieres escribir lo que dice el error
-        ls Documents/ > output.txt 2>&1 &nbsp Por si no sabemos si sera error o algo bien
-        echo "Hola Platzi" &nbsp como el Printf
-        cat error.txt output.txt &nbsp Como el less pero concatenado
-        ls -lh | less &nbsp El simbolo de pipe operatior concatena instrucciones
-        ls -lh | tee uotput.txt | less
-        cowsay "Hola" &nbsp Saca una vaquita diciendo Hola
-        echo "Hola Platzi" | lolcat &nbsp Colorea en la terminal
-        cowsay "Hola amikos" | lolcat &nbsp Vaquita de colores
+        head index.html &nbsp <br>
+        head index.html -n 15 &nbsp<br>
+        tail index.html &nbsp<br>
+        tail index.html -n 20 &nbsp<br>
+        less index.html &nbsp<br>
+        explorer.exe &nbsp<br>
+        nautilus<br>
+        type &nbsp<br>
+        alias l="ls -lh" &nbsp Crea alias pero solo de momento<br>
+        help &nbsp<br>
+        whatis &nbsp<br>
+        man &nbsp<br>
+        info &nbsp<br>
+        #comando --help &nbsp Todos son comandos de ayuda<br>
+        ls *.txt &nbsp Filtrado de busqueda<br>
+        ls datos* &nbsp Filtrado de busqueda<br>
+        ls datos? &nbsp Filtrado de busqueda<br>
+        datos??? &nbsp Filtrado de busqueda<br>
+        ls -d [[:lower:]]* &nbsp Filtrado de busqueda de files y documentos empezando minuscula<br>
+        ls [[:upper:]]* &nbsp Filtrado de busqueda de archivos empezando mayus<br>
+        ls -d [[:upper:]]* &nbsp Filtrado de archivos y carpetas mayus<br>
+        ls [ad]* &nbsp Filtrado que empiezen con a o d<br>
+        ls [ai]* &nbsp Filtrado que empiezen con a o i<br>
+        ls Pictures/EMSE > misarchivos.txt &nbsp crea un .txt con los nombres que hay en esa carpeta<br>
+        ls Pictures/harry >> misarchivos.txt &nbsp Anida a lo ya creado<br>
+        ls lkjhg 2> error.txt &nbsp el 2 es porque quieres escribir lo que dice el error<br>
+        ls Documents/ > output.txt 2>&1 &nbsp Por si no sabemos si sera error o algo bien<br>
+        echo "Hola Platzi" &nbsp como el Printf<br>
+        cat error.txt output.txt &nbsp Como el less pero concatenado<br>
+        ls -lh | less &nbsp El simbolo de pipe operatior concatena instrucciones<br>
+        ls -lh | tee uotput.txt | less<br>
+        cowsay "Hola" &nbsp Saca una vaquita diciendo Hola<br>
+        echo "Hola Platzi" | lolcat &nbsp Colorea en la terminal<br>
+        cowsay "Hola amikos" | lolcat &nbsp Vaquita de colores<br>
+        ls; mkdir hola; cal<br>
+        ls & date & cal<br>
+        cd ñkjh && touch archivo.txt && echo "archivo creado"<br>
+        cd ñkjh || touch archivo.txt || echo "archivo creado"<br>
+        chmod 755 mitexto.txt<br>
+        > mitexto.txt <br>
+        chmod u-r mitexto.txt<br>
+        chmod u+r mitexto.txt<br>
+        chmod u-x,go=w mitexto.txt<br>
+        whoami<br>
+        id<br>
+        passwd<br>
+        ln -s sandbox desarrollo<br>
+        which : Busca la ubicacion de un archivo.<br>
+        find : Para encontrar archivos. <br>
+        Ejemplos con find:
+
+        <ol> <li>find ./ -type d -name Documents</li> 
+        <li>find ./ -type f -name "*.txt"</li> 
+        <li>find ./ -size 20M</li> </ol>
+        grep the movies.csv <br>
+        grep -i the movies.csv<br>
+        grep -c the movies.csv<br>
+        grep -ci the movies.csv<br>
+        grep -vi towers movies.csv<br>
+        wc movies.csv<br>
+        wc -l movies.csv<br>
+        wc -w movies.csv<br>
+        wc -c movies.csv<br>
     </p>
 </body>
 </html>
